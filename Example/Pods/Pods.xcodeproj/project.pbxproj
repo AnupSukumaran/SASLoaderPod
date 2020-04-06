@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168CBF6EB8101E73156F2EEBF75AAB1E /* SASLoaderPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09486A3AA95DB8F0E6061FDAC1A79AA4 /* SASLoaderPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49331DC75CF2EB1FCBE8F5A88D07BC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4E8A8F31189016036329643574434D2E /* SASLoaderPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FFABC975232982459C189858BA04BF /* SASLoaderPod-dummy.m */; };
+		4F91F7546D1CD39FC48D39BAD0C57FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9ABFD71C0308EC72066A05C3E0335662 /* Pods-SASLoaderPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1519DAEAE5A0899EC5FBCBA767EDC05 /* Pods-SASLoaderPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61981432DEDD0EC2DFC116131127263 /* Pods-SASLoaderPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E22AE5550D2A5DF4635DA970E103024 /* Pods-SASLoaderPod_Tests-dummy.m */; };
+		A7D5E5336D5A410AD1A77DA5A356408A /* Pods-SASLoaderPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 388CD03FC75CD5C193C3BBAEFF37AFE3 /* Pods-SASLoaderPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE03270001C9206123C5050548CCCAEF /* Pods-SASLoaderPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8925653D0EC66230DD305769A7B49D /* Pods-SASLoaderPod_Example-dummy.m */; };
+		D16881D1B33E4F0B8CDC6577A6E55E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B51A31F7282EE0B3FBAF053663BD919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301D1C1A70618C9C0B9EF98F9ADAC471;
+			remoteInfo = SASLoaderPod;
+		};
+		C355295B8D2611B3CFB663B7033C99A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0B9ED22279BEE14F7F966CB8D70F47;
+			remoteInfo = "Pods-SASLoaderPod_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EB68DD43A0605A7DBFD8175577A151 /* Pods-SASLoaderPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASLoaderPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09486A3AA95DB8F0E6061FDAC1A79AA4 /* SASLoaderPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASLoaderPod-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33E925B0343395384B82425223A85212 /* Pods-SASLoaderPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASLoaderPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		388CD03FC75CD5C193C3BBAEFF37AFE3 /* Pods-SASLoaderPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASLoaderPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39E1F9D86CF14903CAD0D803D81ED552 /* SASLoaderPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SASLoaderPod.modulemap; sourceTree = "<group>"; };
+		3E22AE5550D2A5DF4635DA970E103024 /* Pods-SASLoaderPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASLoaderPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		43A2A54CC1C0B3C11DBE913C8320C49E /* Pods-SASLoaderPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASLoaderPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51B0202339B46A881D97720FD1051D59 /* SASLoaderPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASLoaderPod-prefix.pch"; sourceTree = "<group>"; };
+		5B314F039CB66E498970E62FAFDD26A5 /* Pods_SASLoaderPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASLoaderPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF7EEF922233BAE10E3B953DC3B0553 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7638ACE7CE4D15861B41A6D1B318C718 /* Pods-SASLoaderPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASLoaderPod_Tests.modulemap"; sourceTree = "<group>"; };
+		79333ACF605352BF7330DA3C1DEC9B2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B8925653D0EC66230DD305769A7B49D /* Pods-SASLoaderPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SASLoaderPod_Example-dummy.m"; sourceTree = "<group>"; };
+		7C5125E59177D4F8F3911ADD7DD14490 /* Pods-SASLoaderPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASLoaderPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E587398EDB007A7EDDA8EEE5712C74A /* Pods-SASLoaderPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASLoaderPod_Example-Info.plist"; sourceTree = "<group>"; };
+		84B25DE4D188F99B4E7F2FA809BA9B8C /* SASLoaderPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SASLoaderPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9570006C98B133618BE1BAAFFA91BBAA /* Pods-SASLoaderPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SASLoaderPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		95FFABC975232982459C189858BA04BF /* SASLoaderPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SASLoaderPod-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED1F19D98703E0B7F9807BB3C2947DD /* Pods_SASLoaderPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SASLoaderPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0062875D7E0933730D8C2D86C55A32 /* Pods-SASLoaderPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASLoaderPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE62F926A44228A17F1544271198FA4C /* Pods-SASLoaderPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SASLoaderPod_Example.modulemap"; sourceTree = "<group>"; };
+		C2D6C8807EFEBF327B6A87BFC565517F /* Pods-SASLoaderPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASLoaderPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB69BF1E3F07A7277F5ED24F9E0F040C /* SASLoaderPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASLoaderPod.debug.xcconfig; sourceTree = "<group>"; };
+		CF98B1D02ED9ED98A2F9E1887AC35C34 /* Pods-SASLoaderPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SASLoaderPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D6A46586BB01E327456BD4ECE418C042 /* SASLoaderPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SASLoaderPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEA48309C56D46879BFA3EF334682977 /* SASLoaderPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SASLoaderPod-Info.plist"; sourceTree = "<group>"; };
+		E89A12FF6106D56B69D6B0DD316C4998 /* SASLoaderPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASLoaderPod.release.xcconfig; sourceTree = "<group>"; };
+		EBDDBB2DA4E38C43C4CC684059EDA875 /* Pods-SASLoaderPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SASLoaderPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1519DAEAE5A0899EC5FBCBA767EDC05 /* Pods-SASLoaderPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SASLoaderPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		FAF486F10C46FFDCDC2108B143A84298 /* Pods-SASLoaderPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SASLoaderPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163B9F03A7656D007E666CEEB8DD193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91F7546D1CD39FC48D39BAD0C57FCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229483C558B6DDBEAFBEBF7330808A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49331DC75CF2EB1FCBE8F5A88D07BC11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57A734DABB262084ACDE3A9874A5566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16881D1B33E4F0B8CDC6577A6E55E00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0734EB8D52D1367B660BCD24E49F114A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E1F9D86CF14903CAD0D803D81ED552 /* SASLoaderPod.modulemap */,
+				95FFABC975232982459C189858BA04BF /* SASLoaderPod-dummy.m */,
+				DEA48309C56D46879BFA3EF334682977 /* SASLoaderPod-Info.plist */,
+				51B0202339B46A881D97720FD1051D59 /* SASLoaderPod-prefix.pch */,
+				09486A3AA95DB8F0E6061FDAC1A79AA4 /* SASLoaderPod-umbrella.h */,
+				CB69BF1E3F07A7277F5ED24F9E0F040C /* SASLoaderPod.debug.xcconfig */,
+				E89A12FF6106D56B69D6B0DD316C4998 /* SASLoaderPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SASLoaderPod";
+			sourceTree = "<group>";
+		};
+		162BB1A64AB857A17F128CB893167CEF /* SASLoaderPod */ = {
+			isa = PBXGroup;
+			children = (
+				9DB1940F243B8F3900DC8738 /* Source */,
+				7249DD6CCF3B14254948B2765806A052 /* Pod */,
+				0734EB8D52D1367B660BCD24E49F114A /* Support Files */,
+			);
+			name = SASLoaderPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		24F24E3E3640486C02659410912D7E33 /* Pods-SASLoaderPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AE62F926A44228A17F1544271198FA4C /* Pods-SASLoaderPod_Example.modulemap */,
+				EBDDBB2DA4E38C43C4CC684059EDA875 /* Pods-SASLoaderPod_Example-acknowledgements.markdown */,
+				07EB68DD43A0605A7DBFD8175577A151 /* Pods-SASLoaderPod_Example-acknowledgements.plist */,
+				7B8925653D0EC66230DD305769A7B49D /* Pods-SASLoaderPod_Example-dummy.m */,
+				CF98B1D02ED9ED98A2F9E1887AC35C34 /* Pods-SASLoaderPod_Example-frameworks.sh */,
+				7E587398EDB007A7EDDA8EEE5712C74A /* Pods-SASLoaderPod_Example-Info.plist */,
+				F1519DAEAE5A0899EC5FBCBA767EDC05 /* Pods-SASLoaderPod_Example-umbrella.h */,
+				33E925B0343395384B82425223A85212 /* Pods-SASLoaderPod_Example.debug.xcconfig */,
+				AA0062875D7E0933730D8C2D86C55A32 /* Pods-SASLoaderPod_Example.release.xcconfig */,
+			);
+			name = "Pods-SASLoaderPod_Example";
+			path = "Target Support Files/Pods-SASLoaderPod_Example";
+			sourceTree = "<group>";
+		};
+		477C4A36F06E8B0C55EDADD3320AC3E2 /* Pods-SASLoaderPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7638ACE7CE4D15861B41A6D1B318C718 /* Pods-SASLoaderPod_Tests.modulemap */,
+				C2D6C8807EFEBF327B6A87BFC565517F /* Pods-SASLoaderPod_Tests-acknowledgements.markdown */,
+				43A2A54CC1C0B3C11DBE913C8320C49E /* Pods-SASLoaderPod_Tests-acknowledgements.plist */,
+				3E22AE5550D2A5DF4635DA970E103024 /* Pods-SASLoaderPod_Tests-dummy.m */,
+				9570006C98B133618BE1BAAFFA91BBAA /* Pods-SASLoaderPod_Tests-Info.plist */,
+				388CD03FC75CD5C193C3BBAEFF37AFE3 /* Pods-SASLoaderPod_Tests-umbrella.h */,
+				FAF486F10C46FFDCDC2108B143A84298 /* Pods-SASLoaderPod_Tests.debug.xcconfig */,
+				7C5125E59177D4F8F3911ADD7DD14490 /* Pods-SASLoaderPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-SASLoaderPod_Tests";
+			path = "Target Support Files/Pods-SASLoaderPod_Tests";
+			sourceTree = "<group>";
+		};
+		4E85084E1EDA8E58BD49E1BA7ABC7FC4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				162BB1A64AB857A17F128CB893167CEF /* SASLoaderPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7249DD6CCF3B14254948B2765806A052 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				79333ACF605352BF7330DA3C1DEC9B2D /* LICENSE */,
+				5BF7EEF922233BAE10E3B953DC3B0553 /* README.md */,
+				D6A46586BB01E327456BD4ECE418C042 /* SASLoaderPod.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9DB1940F243B8F3900DC8738 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A09E9409306E9E9F2E5CEB5C655C31A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F24E3E3640486C02659410912D7E33 /* Pods-SASLoaderPod_Example */,
+				477C4A36F06E8B0C55EDADD3320AC3E2 /* Pods-SASLoaderPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B35F6C662BB4CEA920538DE3B54C5579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B314F039CB66E498970E62FAFDD26A5 /* Pods_SASLoaderPod_Example.framework */,
+				9ED1F19D98703E0B7F9807BB3C2947DD /* Pods_SASLoaderPod_Tests.framework */,
+				84B25DE4D188F99B4E7F2FA809BA9B8C /* SASLoaderPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4E85084E1EDA8E58BD49E1BA7ABC7FC4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B35F6C662BB4CEA920538DE3B54C5579 /* Products */,
+				A09E9409306E9E9F2E5CEB5C655C31A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63D9383DB7505D9F683E766DA4A73412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABFD71C0308EC72066A05C3E0335662 /* Pods-SASLoaderPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A601F6184141002B2E96F689841E8668 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D5E5336D5A410AD1A77DA5A356408A /* Pods-SASLoaderPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25D68385E3E87A8FBE1A6A59EBB605B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168CBF6EB8101E73156F2EEBF75AAB1E /* SASLoaderPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B0B9ED22279BEE14F7F966CB8D70F47 /* Pods-SASLoaderPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B516BD1247504B3012B1C2854C4024 /* Build configuration list for PBXNativeTarget "Pods-SASLoaderPod_Example" */;
+			buildPhases = (
+				63D9383DB7505D9F683E766DA4A73412 /* Headers */,
+				8ED94951F389D25DD03C6FF08CC1BF79 /* Sources */,
+				E57A734DABB262084ACDE3A9874A5566 /* Frameworks */,
+				B7D6B2169E045C98F70FA9426E5D6741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388052077362B8F58A8998968357E4FE /* PBXTargetDependency */,
+			);
+			name = "Pods-SASLoaderPod_Example";
+			productName = "Pods-SASLoaderPod_Example";
+			productReference = 5B314F039CB66E498970E62FAFDD26A5 /* Pods_SASLoaderPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		301D1C1A70618C9C0B9EF98F9ADAC471 /* SASLoaderPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69573B1E1732E97E91983EB81AF0CA97 /* Build configuration list for PBXNativeTarget "SASLoaderPod" */;
+			buildPhases = (
+				F25D68385E3E87A8FBE1A6A59EBB605B /* Headers */,
+				46BDCCC4C8B018E92C923D3F87454749 /* Sources */,
+				229483C558B6DDBEAFBEBF7330808A7C /* Frameworks */,
+				05700454E2A4B8112D31B89BF7F16BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASLoaderPod;
+			productName = SASLoaderPod;
+			productReference = 84B25DE4D188F99B4E7F2FA809BA9B8C /* SASLoaderPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8D9EE31E039183B0D693134E6D901BE /* Pods-SASLoaderPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D820948B9CF98D715C7C3F78074125 /* Build configuration list for PBXNativeTarget "Pods-SASLoaderPod_Tests" */;
+			buildPhases = (
+				A601F6184141002B2E96F689841E8668 /* Headers */,
+				B17D406A585AE0BC8277CF9100385C55 /* Sources */,
+				163B9F03A7656D007E666CEEB8DD193E /* Frameworks */,
+				5A2D203DEFF81ED01A5A38D2D8A4949A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4ABC604F137241B0B9C7FFD2099AB8C /* PBXTargetDependency */,
+			);
+			name = "Pods-SASLoaderPod_Tests";
+			productName = "Pods-SASLoaderPod_Tests";
+			productReference = 9ED1F19D98703E0B7F9807BB3C2947DD /* Pods_SASLoaderPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B35F6C662BB4CEA920538DE3B54C5579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0B9ED22279BEE14F7F966CB8D70F47 /* Pods-SASLoaderPod_Example */,
+				A8D9EE31E039183B0D693134E6D901BE /* Pods-SASLoaderPod_Tests */,
+				301D1C1A70618C9C0B9EF98F9ADAC471 /* SASLoaderPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05700454E2A4B8112D31B89BF7F16BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2D203DEFF81ED01A5A38D2D8A4949A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D6B2169E045C98F70FA9426E5D6741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BDCCC4C8B018E92C923D3F87454749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A8F31189016036329643574434D2E /* SASLoaderPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED94951F389D25DD03C6FF08CC1BF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE03270001C9206123C5050548CCCAEF /* Pods-SASLoaderPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17D406A585AE0BC8277CF9100385C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61981432DEDD0EC2DFC116131127263 /* Pods-SASLoaderPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388052077362B8F58A8998968357E4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SASLoaderPod;
+			target = 301D1C1A70618C9C0B9EF98F9ADAC471 /* SASLoaderPod */;
+			targetProxy = 8B51A31F7282EE0B3FBAF053663BD919 /* PBXContainerItemProxy */;
+		};
+		B4ABC604F137241B0B9C7FFD2099AB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SASLoaderPod_Example";
+			target = 0B0B9ED22279BEE14F7F966CB8D70F47 /* Pods-SASLoaderPod_Example */;
+			targetProxy = C355295B8D2611B3CFB663B7033C99A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B94F6F996F88EF1469A81D537AE2589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB69BF1E3F07A7277F5ED24F9E0F040C /* SASLoaderPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASLoaderPod/SASLoaderPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASLoaderPod/SASLoaderPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASLoaderPod/SASLoaderPod.modulemap";
+				PRODUCT_MODULE_NAME = SASLoaderPod;
+				PRODUCT_NAME = SASLoaderPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22E5C61552DDECC426B4418D8C0B9101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89A12FF6106D56B69D6B0DD316C4998 /* SASLoaderPod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SASLoaderPod/SASLoaderPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SASLoaderPod/SASLoaderPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SASLoaderPod/SASLoaderPod.modulemap";
+				PRODUCT_MODULE_NAME = SASLoaderPod;
+				PRODUCT_NAME = SASLoaderPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36340C8B4100B3C7F118B810AA0A2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E925B0343395384B82425223A85212 /* Pods-SASLoaderPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASLoaderPod_Example/Pods-SASLoaderPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASLoaderPod_Example/Pods-SASLoaderPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		870C90B75744F6E75163C0CCBC0010BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0062875D7E0933730D8C2D86C55A32 /* Pods-SASLoaderPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASLoaderPod_Example/Pods-SASLoaderPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASLoaderPod_Example/Pods-SASLoaderPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DAA76FE4B55B1A470EC2FCFF50CD211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5125E59177D4F8F3911ADD7DD14490 /* Pods-SASLoaderPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASLoaderPod_Tests/Pods-SASLoaderPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASLoaderPod_Tests/Pods-SASLoaderPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2EEC05D8CE4F35F64F8B6B3D6B13F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF486F10C46FFDCDC2108B143A84298 /* Pods-SASLoaderPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SASLoaderPod_Tests/Pods-SASLoaderPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SASLoaderPod_Tests/Pods-SASLoaderPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69573B1E1732E97E91983EB81AF0CA97 /* Build configuration list for PBXNativeTarget "SASLoaderPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B94F6F996F88EF1469A81D537AE2589 /* Debug */,
+				22E5C61552DDECC426B4418D8C0B9101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D820948B9CF98D715C7C3F78074125 /* Build configuration list for PBXNativeTarget "Pods-SASLoaderPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EEC05D8CE4F35F64F8B6B3D6B13F94 /* Debug */,
+				DAA76FE4B55B1A470EC2FCFF50CD211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B516BD1247504B3012B1C2854C4024 /* Build configuration list for PBXNativeTarget "Pods-SASLoaderPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36340C8B4100B3C7F118B810AA0A2EA3 /* Debug */,
+				870C90B75744F6E75163C0CCBC0010BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

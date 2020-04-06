@@ -1,0 +1,16 @@
+PODS:
+  - SASLoaderPod (0.1.0)
+
+DEPENDENCIES:
+  - SASLoaderPod (from `../`)
+
+EXTERNAL SOURCES:
+  SASLoaderPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SASLoaderPod: 274ecfabd439c5f24b6f0006a888402570cb3012
+
+PODFILE CHECKSUM: 1ced061abff92c85b1dfc4093ddc9273bc9e9191
+
+COCOAPODS: 1.9.1
