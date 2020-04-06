@@ -11,7 +11,7 @@ import UIKit
 public class LoaderView: UIStoryboard {
     
     public static func mainStoryboard() -> UIStoryboard {
-        let bundle = Bundle(identifier: "com.Qaptive-Tech.SASLoader")
+        let bundle = Bundle(identifier: "org.cocoapods.SASLoaderPod")
         return UIStoryboard(name: "Main", bundle: bundle)
     }
 
