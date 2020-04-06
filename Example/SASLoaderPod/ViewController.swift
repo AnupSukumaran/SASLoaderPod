@@ -7,18 +7,28 @@
 //
 
 import UIKit
+import SASLoaderPod
 
 class ViewController: UIViewController {
+    
+    var loaderView: LoadingChildViewController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        loaderView = LoaderView.callLoadingChildViewControllerAsChild(callOn: self)
     }
-
+    
+    @IBAction func startIndicator(_ sender: Any) {
+         loaderView = LoaderView.callLoadingChildViewControllerAsChild(callOn: self)
+    }
+    
+    @IBAction func stopIndicator(_ sender: Any) {
+        LoaderView.removeChild(removeChildView: loaderView)
+    }
+    
 }
 
