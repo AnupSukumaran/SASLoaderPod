@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASLoaderPod'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Pod version of SASLoader'
 
   s.description      = <<-DESC
@@ -27,12 +27,4 @@ Pod::Spec.new do |s|
 
   s.resources = [ "Source/Main.storyboard"]
 
-  
-  # s.resource_bundles = {
-  #   'SASLoaderPod' => ['SASLoaderPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

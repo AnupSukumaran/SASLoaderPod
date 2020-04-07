@@ -10,17 +10,43 @@ import UIKit
 
 public class LoaderView: UIStoryboard {
     
-    public static func mainStoryboard() -> UIStoryboard {
+    var loaderView: LoadingChildViewController?
+    
+    var calledOnViewController: UIViewController?
+    
+    var type:  NVActivityIndicatorType = .ballRotate
+    var color: UIColor = .red
+    var padding: CGFloat = 5
+    
+    public func mainStoryboard() -> UIStoryboard {
         let bundle = Bundle(identifier: "org.cocoapods.SASLoaderPod")
         return UIStoryboard(name: "Main", bundle: bundle)
     }
 
-    public static func loadingChildViewController() -> LoadingChildViewController? {
+    public func loadingChildViewController() -> LoadingChildViewController? {
         return mainStoryboard().instantiateViewController(withIdentifier: "LoadingChildViewController") as? LoadingChildViewController
     }
     
-    public static func setUpLoader(callOn: UIViewController, type: NVActivityIndicatorType = .ballRotate,color: UIColor = .red,padding: CGFloat = 5) -> LoadingChildViewController? {
-        guard let vc = self.loadingChildViewController() else {return nil}
+    public init(callOn: UIViewController, type: NVActivityIndicatorType = .ballRotate,color: UIColor = .red,padding: CGFloat = 5) {
+        calledOnViewController = callOn
+        self.type = type
+        self.color = color
+        self.padding = padding
+    }
+   
+    public func startAnimating() {
+       
+        guard let vc = calledOnViewController else {return}
+        loaderView = setUpLoader(callOn: vc, type: type,color: color,padding: padding)
+    }
+    
+    public func stopAnimating() {
+      
+        removeChild(removeChildView: loaderView)
+    }
+    
+    public func setUpLoader(callOn: UIViewController, type: NVActivityIndicatorType = .ballRotate,color: UIColor = .red,padding: CGFloat = 5) -> LoadingChildViewController? {
+        guard let vc = loadingChildViewController() else {return nil}
         vc.modalPresentationStyle = .fullScreen
         vc.type = type
         vc.color = color
@@ -32,14 +58,14 @@ public class LoaderView: UIStoryboard {
         return vc
     }
     
-    public static func removeChild(removeChildView: UIViewController?) {
+    public func removeChild(removeChildView: UIViewController?) {
         guard let main = removeChildView else {return}
         main.willMove(toParent: nil)
         main.view.removeFromSuperview()
         main.removeFromParent()
     }
     
-    public static func activityOnAlert(callOn: UIViewController, loadingMsg: String = "Please wait ...") {
+    public func activityOnAlert(callOn: UIViewController, loadingMsg: String = "Please wait ...") {
         let alert = UIAlertController(title: nil, message: loadingMsg, preferredStyle: .alert)
 
         let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
@@ -59,7 +85,7 @@ public class LoaderView: UIStoryboard {
         callOn.present(alert, animated: true, completion: nil)
     }
     
-   public static func dismissActivityOnAlert(removeFrom: UIViewController) {
+   public func dismissActivityOnAlert(removeFrom: UIViewController) {
         removeFrom.dismiss(animated: true, completion: nil)
     }
 }
