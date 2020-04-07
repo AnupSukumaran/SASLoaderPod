@@ -27,7 +27,7 @@ pod 'SASLoaderPod'
 ```
     var loaderView: LoadingChildViewController?
 ```
-3) Then in the viewDidAppear() call the LoaderView with setUpLoader function as show ->  
+3) Then  call the LoaderView with setUpLoader function as show  in the place where its necessary and also change the type, color and padding using the setUpLoader function ->  
 ```
     loaderView = LoaderView.setUpLoader(callOn: self)
 ```
