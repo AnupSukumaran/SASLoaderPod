@@ -19,7 +19,7 @@ public class LoaderView: UIStoryboard {
         return mainStoryboard().instantiateViewController(withIdentifier: "LoadingChildViewController") as? LoadingChildViewController
     }
     
-    public static func callLoadingChildViewControllerAsChild(callOn: UIViewController, type: NVActivityIndicatorType = .ballRotate,color: UIColor = .red,padding: CGFloat = 5) -> LoadingChildViewController? {
+    public static func setUpLoader(callOn: UIViewController, type: NVActivityIndicatorType = .ballRotate,color: UIColor = .red,padding: CGFloat = 5) -> LoadingChildViewController? {
         guard let vc = self.loadingChildViewController() else {return nil}
         vc.modalPresentationStyle = .fullScreen
         vc.type = type

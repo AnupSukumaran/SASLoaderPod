@@ -19,11 +19,11 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        loaderView = LoaderView.callLoadingChildViewControllerAsChild(callOn: self)
+        loaderView = LoaderView.setUpLoader(callOn: self)
     }
     
     @IBAction func startIndicator(_ sender: Any) {
-         loaderView = LoaderView.callLoadingChildViewControllerAsChild(callOn: self)
+         loaderView = LoaderView.setUpLoader(callOn: self)
     }
     
     @IBAction func stopIndicator(_ sender: Any) {

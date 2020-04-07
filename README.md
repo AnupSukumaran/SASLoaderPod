@@ -20,6 +20,27 @@ it, simply add the following line to your Podfile:
 pod 'SASLoaderPod'
 ```
 
+## Steps on how to use this pod.
+
+1) Import SASLoaderPod in the view controller class
+2) Create a variable for the loader like this -> 
+```
+    var loaderView: LoadingChildViewController?
+```
+3) Then in the viewDidAppear() call the LoaderView with setUpLoader function as show ->  
+```
+    loaderView = LoaderView.setUpLoader(callOn: self)
+```
+
+4) To stop the loader call this ->
+
+```
+    LoaderView.removeChild(removeChildView: loaderView)
+```
+
+ at any event
+
+
 ## Author
 
 AnupSukumaran, anup.sukumaran9@gmail.com
