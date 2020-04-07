@@ -10,9 +10,7 @@ import UIKit
 import SASLoaderPod
 
 class ViewController: UIViewController {
-    
-   // var loaderView: LoadingChildViewController?
-    
+   
     var loaderView:LoaderView!
 
     override func viewDidLoad() {
@@ -23,17 +21,14 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         loaderView.startAnimating()
-        //loaderView = LoaderView.setUpLoader(callOn: self)
     }
     
     @IBAction func startIndicator(_ sender: Any) {
         loaderView.startAnimating()
-        // loaderView = LoaderView.setUpLoader(callOn: self)
     }
     
     @IBAction func stopIndicator(_ sender: Any) {
         loaderView.stopAnimating()
-        //LoaderView.removeChild(removeChildView: loaderView)
     }
     
 }
