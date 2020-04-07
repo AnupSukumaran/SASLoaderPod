@@ -25,17 +25,23 @@ pod 'SASLoaderPod'
 1) Import SASLoaderPod in the view controller class
 2) Create a variable for the loader like this -> 
 ```
-    var loaderView: LoadingChildViewController?
+    var loaderView:LoaderView!
 ```
-3) Then  call the LoaderView with setUpLoader function as show  in the place where its necessary and also change the type, color and padding using the setUpLoader function ->  
+3) In the ViewDidLoad() function initialize the LoaderView class and also change the type, color and padding
+
 ```
-    loaderView = LoaderView.setUpLoader(callOn: self)
+    loaderView = LoaderView(callOn: self)
+```
+
+3) Then you can start the animation as show ->  
+```
+    loaderView.startAnimating()
 ```
 
 4) To stop the loader call this ->
 
 ```
-    LoaderView.removeChild(removeChildView: loaderView)
+    loaderView.stopAnimating()
 ```
 
  at any event
