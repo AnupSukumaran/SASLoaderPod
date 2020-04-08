@@ -17,7 +17,7 @@ public class LoaderView: UIStoryboard {
     var type:  NVActivityIndicatorType = .ballRotate
     var color: UIColor = .red
     var padding: CGFloat = 5
-    
+    var viewCalled = false
     public func mainStoryboard() -> UIStoryboard {
         let bundle = Bundle(identifier: "org.cocoapods.SASLoaderPod")
         return UIStoryboard(name: "Main", bundle: bundle)
@@ -32,10 +32,12 @@ public class LoaderView: UIStoryboard {
         self.type = type
         self.color = color
         self.padding = padding
+        
     }
    
     public func startAnimating() {
-       
+        guard !viewCalled else {return}
+        viewCalled = true
         guard let vc = calledOnViewController else {return}
         loaderView = setUpLoader(callOn: vc, type: type,color: color,padding: padding)
     }
