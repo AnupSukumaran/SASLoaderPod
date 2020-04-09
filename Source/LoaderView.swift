@@ -43,7 +43,7 @@ public class LoaderView: UIStoryboard {
     }
     
     public func stopAnimating() {
-      
+        viewCalled = false
         removeChild(removeChildView: loaderView)
     }
     
