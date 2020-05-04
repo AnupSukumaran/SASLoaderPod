@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 public class LoadingChildViewController: UIViewController {
     
     @IBOutlet weak var activityIndic: UIActivityIndicatorView!
